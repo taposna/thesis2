@@ -158,7 +158,7 @@
     <Resource Include="images\reg.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\roc1.jpg" />
+    <Resource Include="images\Untitled-1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
