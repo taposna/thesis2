@@ -1,0 +1,156 @@
+﻿<Window x:Class="IloiloCityCommunityCollege.mainform"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IloiloCityCommunityCollege"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        ResizeMode="CanResize"
+        Title="mainform" Height="768" Width="1366">
+    <Window.Resources>
+        <Style x:Key="LeftTabControl" TargetType="{x:Type TabControl}">
+            <Setter Property="TabStripPlacement" Value="Left" />
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TabControl}">
+                        <Grid ClipToBounds="True" SnapsToDevicePixels="True" KeyboardNavigation.TabNavigation="Local">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Name="ColumnDefinition0" />
+                                <ColumnDefinition Width="0" Name="ColumnDefinition1" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" Name="RowDefinition0" />
+                                <RowDefinition Height="*" Name="RowDefinition1" />
+                            </Grid.RowDefinitions>
+
+                            <Border x:Name="HeaderBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="0" Background="White" Margin="0">
+                                <TabPanel IsItemsHost="True" Name="HeaderPanel" Panel.ZIndex="1" KeyboardNavigation.TabIndex="1" Grid.Column="0" Grid.Row="0" />
+                            </Border>
+
+                            <Grid Name="ContentPanel" KeyboardNavigation.TabIndex="2" KeyboardNavigation.TabNavigation="Local" KeyboardNavigation.DirectionalNavigation="Contained" Grid.Column="0" Grid.Row="1">
+                                <Border Background="#FF00456A" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="0">
+                                    <ContentPresenter Content="{TemplateBinding SelectedContent}" ContentTemplate="{TemplateBinding SelectedContentTemplate}" ContentStringFormat="{TemplateBinding SelectedContentStringFormat}" ContentSource="SelectedContent" Name="PART_SelectedContentHost" Margin="2" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+                                </Border>
+                            </Grid>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="TabControl.TabStripPlacement" Value="Left">
+                                <Setter TargetName="HeaderPanel" Property="Grid.Row" Value="0" />
+                                <Setter TargetName="ContentPanel" Property="Grid.Row" Value="0" />
+                                <Setter TargetName="HeaderPanel" Property="Grid.Column" Value="0" />
+                                <Setter TargetName="ContentPanel" Property="Grid.Column" Value="1" />
+                                <Setter TargetName="ColumnDefinition0" Property="ColumnDefinition.Width" Value="Auto" />
+                                <Setter TargetName="ColumnDefinition1" Property="ColumnDefinition.Width" Value="*" />
+                                <Setter TargetName="RowDefinition0" Property="RowDefinition.Height" Value="*" />
+                                <Setter TargetName="RowDefinition1" Property="RowDefinition.Height" Value="0" />
+                                <Setter TargetName="HeaderBorder" Property="FrameworkElement.Margin" Value="0,0,0,0" />
+                            </Trigger>
+
+                            <Trigger Property="UIElement.IsEnabled" Value="False">
+                                <Setter Property="TextElement.Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="{x:Type TabItem}" TargetType="{x:Type TabItem}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="MinHeight" Value="20" />
+            <Setter Property="FontFamily" Value="./#Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="IsTabStop" Value="False" />
+            <Setter Property="AllowDrop" Value="True" />
+
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TabItem}">
+                        <Border SnapsToDevicePixels="True" Name="Border" Margin="0,30,2,0" Padding="7" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="0">
+                            <Grid>
+                                <Path x:Name="CurrentTriangle" Width="10" Height="14" Stretch="Fill" Margin="0,0,-7,0" Fill="#FAFAFA" HorizontalAlignment="Right" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Visibility="Collapsed" />
+                                <ContentPresenter Name="ContentSite" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="5,5,5,5" VerticalAlignment="Center" RecognizesAccessKey="True" ContentSource="Header" />
+                            </Grid>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="TabStripPlacement" Value="Bottom">
+                                <Setter TargetName="Border" Property="CornerRadius" Value="0,0,0,0" />
+                            </Trigger>
+
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="CurrentTriangle" Property="Visibility" Value="Visible" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#FF00456A" />
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True" />
+                        <Condition Property="IsSelected" Value="False" />
+                    </MultiTrigger.Conditions>
+
+                    <Setter Property="Background" Value="#FF0673AE" />
+                    <Setter Property="Foreground" Value="White" />
+                </MultiTrigger>
+
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="Black" />
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl  Style="{StaticResource LeftTabControl}" Width="1348" HorizontalAlignment="Left" Margin="0,10" SelectionChanged="TabControl_SelectionChanged" >
+
+            <TabItem Width="180" Header="HOME" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="STUDENT" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="CLASS SCHEDULE" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="FACULTY" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="GRADES" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="CURRICULUM" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="SET SCHOOL YEAR" FontSize="16">
+
+            </TabItem>
+            <TabItem Width="180" Header="PRINT" FontSize="16">
+
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

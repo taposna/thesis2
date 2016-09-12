@@ -63,8 +63,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="clsDbconnection.cs" />
-    <Compile Include="pageHome.xaml.cs">
-      <DependentUpon>pageHome.xaml</DependentUpon>
+    <Compile Include="mainform.xaml.cs">
+      <DependentUpon>mainform.xaml</DependentUpon>
     </Compile>
     <Compile Include="pageMain.xaml.cs">
       <DependentUpon>pageMain.xaml</DependentUpon>
@@ -72,14 +72,8 @@
     <Compile Include="pageReg.xaml.cs">
       <DependentUpon>pageReg.xaml</DependentUpon>
     </Compile>
-    <Compile Include="pageStudent.xaml.cs">
-      <DependentUpon>pageStudent.xaml</DependentUpon>
-    </Compile>
     <Compile Include="windowLogin.xaml.cs">
       <DependentUpon>windowLogin.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="windowMain.xaml.cs">
-      <DependentUpon>windowMain.xaml</DependentUpon>
     </Compile>
     <Compile Include="windowSetSchoolYear.xaml.cs">
       <DependentUpon>windowSetSchoolYear.xaml</DependentUpon>
@@ -113,7 +107,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="pageHome.xaml">
+    <Page Include="mainform.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -125,15 +119,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="pageStudent.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="windowLogin.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="windowMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

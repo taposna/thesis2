@@ -63,16 +63,10 @@ C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\Iloi
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\bin\Debug\IloiloCityCommunityCollege.exe
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\bin\Debug\IloiloCityCommunityCollege.pdb
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.csprojResolveAssemblyReference.cache
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageHome.baml
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageReg.baml
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageStudent.baml
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowMain.baml
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageHome.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageMain.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageReg.g.cs
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageStudent.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowLogin.g.cs
-C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowMain.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowSetSchoolYear.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\App.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege_MarkupCompile.cache
@@ -83,3 +77,5 @@ C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\Iloi
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.g.resources
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.Properties.Resources.resources
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.csproj.GenerateResource.Cache
+C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\mainform.g.cs
+C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\mainform.baml

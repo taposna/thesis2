@@ -15,25 +15,18 @@ using System.Windows.Shapes;
 namespace IloiloCityCommunityCollege
 {
     /// <summary>
-    /// Interaction logic for windowMain.xaml
+    /// Interaction logic for mainform.xaml
     /// </summary>
-    public partial class windowMain : Window
+    public partial class mainform : Window
     {
-        public windowMain()
+        public mainform()
         {
             InitializeComponent();
         }
-    private void home_btn(object sender, RoutedEventArgs e)
-            {
-                pageHome ph = new pageHome();
-                mainFrame.NavigationService.Navigate(ph);
-            }
-        private void student_btn(object sender, RoutedEventArgs e)
-        {
-            pageStudent ps = new pageStudent();
-            mainFrame.NavigationService.Navigate(ps);
-        }
 
-        
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
