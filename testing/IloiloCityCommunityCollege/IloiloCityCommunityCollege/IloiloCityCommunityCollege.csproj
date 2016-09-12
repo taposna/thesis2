@@ -135,9 +135,6 @@
     <Resource Include="images\iccc-logo1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="iccc-logo1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\user-login-icon.png" />
   </ItemGroup>
   <ItemGroup>
