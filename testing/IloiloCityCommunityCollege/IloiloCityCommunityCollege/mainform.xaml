@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:IloiloCityCommunityCollege"
         mc:Ignorable="d"
         WindowState="Maximized"
-        ResizeMode="CanResize"
-        Title="mainform" Height="768" Width="1366">
+        ResizeMode="NoResize"
+        Title="mainform" Height="768" Width="1366" WindowStyle="None">
     <Window.Resources>
         <Style x:Key="LeftTabControl" TargetType="{x:Type TabControl}">
             <Setter Property="TabStripPlacement" Value="Left" />
@@ -125,19 +125,17 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <TabControl  Style="{StaticResource LeftTabControl}" Width="1348" HorizontalAlignment="Left" Margin="0,10" SelectionChanged="TabControl_SelectionChanged" >
+        <TabControl Style="{StaticResource LeftTabControl}" Width="1348" HorizontalAlignment="Left" Margin="0,10" SelectionChanged="TabControl_SelectionChanged" >
 
             <TabItem Width="180" Header="HOME" FontSize="16">
-                <Border BorderThickness="2" BorderBrush="White" Margin="20,20,20,20">
-                <Grid>
+                <!--<Grid>
                         <Frame Source="pageHome.xaml" NavigationUIVisibility="Hidden"/>
 
 
-                    </Grid>
-                </Border>
+                    </Grid>-->
             </TabItem>
             <TabItem Width="180" Header="STUDENT" FontSize="16">
-
+                
             </TabItem>
             <TabItem Width="180" Header="CLASS SCHEDULE" FontSize="16">
 

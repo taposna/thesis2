@@ -5,10 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:IloiloCityCommunityCollege"
       mc:Ignorable="d"
-      Title="pageHome" Width="1115.196" Background="White" Height="634.984">
-    <Border BorderThickness="2" BorderBrush="Red">
+      Title="pageHome" Width="1115.196" Background="White" Height="696.906">
     <Grid>
 
     </Grid>
-    </Border>
 </Page>

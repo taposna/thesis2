@@ -26,7 +26,7 @@ namespace IloiloCityCommunityCollege
 
         private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+           
         }
     }
 }
