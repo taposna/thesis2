@@ -66,6 +66,9 @@
     <Compile Include="mainform.xaml.cs">
       <DependentUpon>mainform.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pageMain.xaml.cs">
       <DependentUpon>pageMain.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="mainform.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

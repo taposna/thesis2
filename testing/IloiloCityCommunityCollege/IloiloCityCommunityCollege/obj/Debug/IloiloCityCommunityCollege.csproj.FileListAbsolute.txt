@@ -79,3 +79,6 @@ C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\Iloi
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.csproj.GenerateResource.Cache
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\mainform.g.cs
 C:\Users\badagila\Desktop\thesis\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\mainform.baml
+C:\Users\maria\Desktop\testing\test2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\bin\Debug\IloiloCityCommunityCollege.exe.config
+C:\Users\maria\Desktop\testing\test2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.exe
+C:\Users\maria\Desktop\testing\test2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.pdb
