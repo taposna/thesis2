@@ -128,11 +128,11 @@
         <TabControl Style="{StaticResource LeftTabControl}" Width="1348" HorizontalAlignment="Left" Margin="0,10" SelectionChanged="TabControl_SelectionChanged" >
 
             <TabItem Width="180" Header="HOME" FontSize="16">
-                <!--<Grid>
+                <Grid>
                         <Frame Source="pageHome.xaml" NavigationUIVisibility="Hidden"/>
 
 
-                    </Grid>-->
+                    </Grid>
             </TabItem>
             <TabItem Width="180" Header="STUDENT" FontSize="16">
                 
