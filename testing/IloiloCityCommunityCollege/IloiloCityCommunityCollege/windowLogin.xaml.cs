@@ -22,8 +22,7 @@ namespace IloiloCityCommunityCollege
         public windowLogin()
         {
             InitializeComponent();
-            pageReg pg = new pageReg();
-            log1.NavigationService.Navigate(pg);
+            
         }
     }
 }

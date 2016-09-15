@@ -88,10 +88,8 @@ C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityC
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\bin\Debug\IloiloCityCommunityCollege.exe
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\bin\Debug\IloiloCityCommunityCollege.pdb
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.csprojResolveAssemblyReference.cache
-C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageReg.baml
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\mainform.g.cs
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageMain.g.cs
-C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageReg.g.cs
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowLogin.g.cs
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\windowSetSchoolYear.g.cs
 C:\Users\badagila\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\App.g.cs

@@ -72,9 +72,6 @@
     <Compile Include="pageMain.xaml.cs">
       <DependentUpon>pageMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="pageReg.xaml.cs">
-      <DependentUpon>pageReg.xaml</DependentUpon>
-    </Compile>
     <Compile Include="windowLogin.xaml.cs">
       <DependentUpon>windowLogin.xaml</DependentUpon>
     </Compile>
@@ -119,10 +116,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="pageMain.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="pageReg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
