@@ -10,29 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace IloiloCityCommunityCollege
 {
     /// <summary>
-    /// Interaction logic for mainform.xaml
+    /// Interaction logic for pageStudent.xaml
     /// </summary>
-    public partial class mainform : Window
+    public partial class pageStudent : Page
     {
-        public mainform()
+        public pageStudent()
         {
             InitializeComponent();
-        }
-
-        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-           
-        }
-
-        private void TabControl_Loaded(object sender, RoutedEventArgs e)
-        {
-            pageStudent PS = new pageStudent();
-            student.NavigationService.Navigate(PS);
         }
     }
 }

@@ -126,3 +126,5 @@ C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityComm
 C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.g.resources
 C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.Properties.Resources.resources
 C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\IloiloCityCommunityCollege.csproj.GenerateResource.Cache
+C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageStudent.g.cs
+C:\Users\cyrik\Desktop\thesis2\testing\IloiloCityCommunityCollege\IloiloCityCommunityCollege\obj\Debug\pageStudent.baml
