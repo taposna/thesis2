@@ -24,7 +24,7 @@
                     </Label>
                     <PasswordBox Margin="84,0,10,0"></PasswordBox>
                 </Grid>
-                <Button Content="LOG IN" Margin="214,125,10,22">
+                <Button Margin="214,125,10,20">
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="White" />
@@ -45,6 +45,10 @@
                             </Style.Triggers>
                         </Style>
                     </Button.Style>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="images/lock.png" Height="12" Width="12" HorizontalAlignment="Center"/>
+                        <Label Content="LOGIN" HorizontalAlignment="Center"/>
+                    </StackPanel>
                 </Button>
             </Grid>
         </Border>
